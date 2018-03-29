@@ -1,0 +1,35 @@
+@import "../assets/common/styles/variable.scss";
+.helpContent{
+    padding: 20px 0px 60px 0px;
+    .el-tabs__content,.el-tabs__nav-scroll{
+        width: 1200px;
+        margin:0 auto;
+    }
+}
+.bg-a{
+    background-image:url(../assets/images/index/help.jpg);
+    height:100%;
+}
+.Homebanner{
+    height: 362px;
+}
+.bannerText{
+    top:207px;
+}
+.searchBox{
+    background:$color_1F95E8;
+    border-radius: 6px;
+    padding: 4px;
+}
+.el-input-group__append{
+    background: $color_1F95E8;
+    color: $color_white;
+    border:none;
+}
+.key {
+    font-size: $font-size-12;
+    margin-top: 12px;
+    span {
+        padding-right: 10px;
+    }
+}

@@ -1,0 +1,38 @@
+//颜色定义规范
+$color_white : #fff;
+$color_black : #000;
+$color_333 : #333;
+$color_999 : #999;
+$color_666 : #666;
+$color_00a2ca : #00a2ca;
+$color_1F95E8 : #1F95E8;
+$color_424460 : #424460;
+$color_28d0e9 : #28d0e9;
+$color_7F84C5 : #7F84C5;
+$color_E9E9E9 : #E9E9E9;
+$color_F8F8F8 : #F8F8F8;
+$color_FF7517 : #FF7517;
+$color_272b2e : #272b2e;
+$color_343B50 : #343B50;
+$color_3F3F3F : #3F3F3F;
+$color_573CAC : #573CAC;
+$color_2B3046 : #2B3046;
+$border_b: 1px solid hsla(0,0%,100%,.15);
+$border_a: 1px solid rgba(255, 255, 255, 0.15);
+$bg1:linear-gradient(-180deg, #08CAF8 0%, #0D84D8 100%);
+$bg2:linear-gradient(-180deg, #F5BF42 0%, #E88B1F 100%);
+
+
+//字体定义规范
+$font-size-12:12px;
+$font-size-14:14px;
+$font-size-16:16px;
+$font-size-18:18px;
+$font-size-20:20px;
+$font-size-30:30px;
+$font-size-36:36px;
+$font-size-40:40px;
+$font-size-46:46px;
+
+//定义最小宽度
+$min-width: 1200px;

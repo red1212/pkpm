@@ -1,0 +1,149 @@
+@import "./variable.scss";
+//@import "./restElement.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+}
+.wrap {
+  min-width: 1200px;
+  position: relative;
+  height: 100%;
+}
+a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+em,i {font-style: normal;}
+ul,ol,li
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+img {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  border: 0;
+  vertical-align: middle;
+}
+input,
+textarea,
+button {
+  outline: none;
+}
+input,
+textarea {
+  border: 0;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after,
+.clearfix:before {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.contents {
+  background-color: #fff;
+}
+.content{
+    min-width: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.commonBg{height:120px;position:absolute;top:0;width:100%;min-width: 1200px;}
+.paddingTop{padding-top:120px;}
+.disable {pointer-events: none;}
+//banner图片
+.Homebanner{
+    width:100%;
+    position:relative;
+    //height:562px;
+    overflow:hidden;
+}
+.Homebanner .bg{
+   width: 100%;
+   position: absolute;
+   top: 0px;
+   display: block;
+   opacity: 1;
+}
+.bannerText{
+    position: absolute;
+    width: 1200px;
+    left: 50%;
+    margin-left: -600px;
+    color: #fff;
+    padding: 0 20px;
+}
+
+label {
+  margin-bottom: 0px;
+  font-weight: normal;
+}
+.table {
+  margin-bottom: 0;
+  font-size: 12px;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.table > tbody > tr:last-child {
+  border-bottom: 1px solid #ddd;
+}
+th,
+td {
+  color: #555;
+  border-right: 1px solid #ddd;
+}
+.table > tbody > tr > td {
+  padding: 6px 5px;
+  text-align: center;
+  line-height: 27px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.table > tbody {
+  background-color: #fff;
+}
+.table > thead > tr > th {
+  padding: 0 5px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 40px;
+  color: #666;
+  border-bottom: 0;
+  word-break: keep-all;
+}
+.wrap-topvar-nav-list ul li .textColor {
+  color: #00a2ca;
+}
